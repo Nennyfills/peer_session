@@ -1,0 +1,37 @@
+{
+  "name": "peer_session",
+  "version": "1.0.0",
+  "description": "Communication model",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require @babel/register --require regenerator-runtime/runtime tests/unitTest.js --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nennyfills/peer_session.git"
+  },
+  "keywords": [
+    "Node.js",
+    "JavaScript",
+    "Babel",
+    "Mocha",
+    "Chai"
+  ],
+  "author": "Nenny Dike",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Nennyfills/peer_session/issues"
+  },
+  "homepage": "https://github.com/Nennyfills/peer_session#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.13.10",
+    "@babel/core": "^7.13.10",
+    "@babel/preset-env": "^7.13.12",
+    "@babel/register": "^7.13.8",
+    "chai": "^4.3.4",
+    "mocha": "^8.3.2"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.13.10"
+  }
+}
